@@ -10,3 +10,13 @@ Currently, two official plugins are available:
 ## Install & Run
 - yarn 
 - yarn dev
+
+Si trabajamos con TypeScript, el código se vería similar al de JavaScript, pero con algunas adiciones para el tipado y la definición de interfaces. Aquí tienes cómo se podría modificar el código para trabajar con TypeScript:
+interface Product {
+    id: number;
+    name: string;
+    price: number;
+    description: string;
+    // Otros campos si los hay
+}
+Para tipar correctamente el objeto product en TypeScript, puedes definir una interfaz que describa la estructura esperada de los datos del producto.
